@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-
+from flask import Flask, render_template, request
+import json
 app = Flask(__name__)
 
 
@@ -28,7 +28,7 @@ def respond():
         response["MESSAGE"] = f"Welcome {name} to our awesome platform!!"
 
     # Return the response in json format
-    return jsonify(response)
+    return json.dumps(response)
 
 
 
