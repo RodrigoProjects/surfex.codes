@@ -3,7 +3,7 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/scheduler')
 def index():
     return '<h1>Hello World!!!</h1>'
 
