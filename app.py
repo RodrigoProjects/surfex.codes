@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request
-import json
-app = Flask(__name__)
+from flask import Flask, render_template, request, jsonify
+from um_schedule_api import *
 
+app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False # Garant utf-8
 
 @app.route('/scheduler')
 def index():
@@ -31,6 +32,33 @@ def respond():
     return json.dumps(response)
 
 
+@app.route('/schedule/', methods=['GET'])
+def schedule():
+
+    curso = request.args.get('curso')
+    ano = request.args.get('ano')
+
+    print(f'{curso} - {ano}')
+    if not curso or not ano:
+        return jsonify({'error': 'Argumento ano ou curso em falta!'})
+
+
+    try:
+        ano = int(request.args.get('ano'))
+
+    except Exception:
+        return jsonify({'erro' : 'Ano tem de ser um número inteiro!'})
+
+    try:
+        api = UM_Schedule_API()
+        return jsonify(api.get(CURSO = curso,ANO = ano))
+
+    except Exception as e:
+        return jsonify({'erro' : 'Ano ou curso não existente!', 'trace' : e.args})
+
+    finally:
+        del api
+    
 
 if __name__ == "__main__":
-    app.run(threaded=True,port=5000)
+    app.run(threaded=True,port=5000,debug=True)

@@ -1,0 +1,354 @@
+{
+    "Seg": [
+        {
+            "hora_de_inicio": 9,
+            "nome": "Modelos Estoc\u00e1sticos Investiga\u00e7\u00e3o Operacional",
+            "sigla": "MEIO",
+            "turno": "TP3",
+            "edificio": "CP1",
+            "sala": "2.25",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "TP2",
+            "edificio": "CP1",
+            "sala": "1.27",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "PL5",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 4",
+            "sigla": "LI4",
+            "turno": "PL4",
+            "edificio": "CP1",
+            "sala": "2.18",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Sistemas Representa\u00e7\u00e3o Conhecimento Racioc\u00ednio",
+            "sigla": "SRCR",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Representa\u00e7\u00e3o Conhecimento Racioc\u00ednio",
+            "sigla": "SRCR",
+            "turno": "PL2",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Modelos Estoc\u00e1sticos Investiga\u00e7\u00e3o Operacional",
+            "sigla": "MEIO",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "2.24",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Representa\u00e7\u00e3o Conhecimento Racioc\u00ednio",
+            "sigla": "SRCR",
+            "turno": "PL1",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Modelos Estoc\u00e1sticos Investiga\u00e7\u00e3o Operacional",
+            "sigla": "MEIO",
+            "turno": "TP2",
+            "edificio": "CP2",
+            "sala": "2.12",
+            "duracao": 2
+        }
+    ],
+    "Ter": [
+        {
+            "hora_de_inicio": 9,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "PL5",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "TP4",
+            "edificio": "CP1",
+            "sala": "1.24",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "PL4",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "PL3",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 4",
+            "sigla": "LI4",
+            "turno": "PL2",
+            "edificio": "CP1",
+            "sala": "1.18",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "TP5",
+            "edificio": "CP1",
+            "sala": "2.22",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "PL3",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "PL1",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        }
+    ],
+    "Qua": [
+        {
+            "hora_de_inicio": 9,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 4",
+            "sigla": "LI4",
+            "turno": "PL3",
+            "edificio": "CP1",
+            "sala": "1.24",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "TP3",
+            "edificio": "CP1",
+            "sala": "1.17",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 4",
+            "sigla": "LI4",
+            "turno": "PL1",
+            "edificio": "CP2",
+            "sala": "0.15",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "PL2",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "PL4",
+            "edificio": "CP7",
+            "sala": "1.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 4",
+            "sigla": "LI4",
+            "turno": "PL5",
+            "edificio": "CP2",
+            "sala": "0.16",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "TP1",
+            "edificio": "CP2",
+            "sala": "1.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "PL6",
+            "edificio": "CP7",
+            "sala": "1.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "PL1",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "PL2",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        }
+    ],
+    "Qui": [
+        {
+            "hora_de_inicio": 9,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 1
+        },
+        {
+            "hora_de_inicio": 10,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "T",
+            "edificio": "CP1",
+            "sala": "0.04",
+            "duracao": 1
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Modelos Estoc\u00e1sticos Investiga\u00e7\u00e3o Operacional",
+            "sigla": "MEIO",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Representa\u00e7\u00e3o Conhecimento Racioc\u00ednio",
+            "sigla": "SRCR",
+            "turno": "PL5",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Modelos Estoc\u00e1sticos Investiga\u00e7\u00e3o Operacional",
+            "sigla": "MEIO",
+            "turno": "TP4",
+            "edificio": "CP2",
+            "sala": "1.10",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Representa\u00e7\u00e3o Conhecimento Racioc\u00ednio",
+            "sigla": "SRCR",
+            "turno": "PL4",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Representa\u00e7\u00e3o Conhecimento Racioc\u00ednio",
+            "sigla": "SRCR",
+            "turno": "PL3",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        }
+    ],
+    "Sex": [
+        {
+            "hora_de_inicio": 9,
+            "nome": "Comunica\u00e7\u00f5es Computador",
+            "sigla": "CC",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 1
+        },
+        {
+            "hora_de_inicio": 10,
+            "nome": "Processamento Linguagens",
+            "sigla": "PL",
+            "turno": "T",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 1
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 1
+        },
+        {
+            "hora_de_inicio": 12,
+            "nome": "Computa\u00e7\u00e3o Gr\u00e1fica",
+            "sigla": "CG",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 1
+        }
+    ]
+}

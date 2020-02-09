@@ -1,0 +1,633 @@
+{
+    "Seg": [
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "T2",
+            "edificio": "CP1",
+            "sala": "0.04",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.04",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "T2",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL7",
+            "edificio": "CP7",
+            "sala": "1.10",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL10",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL1",
+            "edificio": "CP1",
+            "sala": "2.25",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP2",
+            "edificio": "CP1",
+            "sala": "1.21",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP6",
+            "edificio": "CP1",
+            "sala": "2.22",
+            "duracao": 2
+        }
+    ],
+    "Ter": [
+        {
+            "hora_de_inicio": 9,
+            "nome": "Comunica\u00e7\u00e3o Arte",
+            "sigla": "CA",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "2.17",
+            "duracao": 3
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "L\u00edngua Cultura Galegas",
+            "sigla": "LCG",
+            "turno": "TP1",
+            "edificio": "CP2",
+            "sala": "0.17",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Inova\u00e7\u00e3o Gest\u00e3o Cidades",
+            "sigla": "IGC",
+            "turno": "PL1",
+            "edificio": "CP1",
+            "sala": "2.21",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "L\u00edngua Estrangeira N\u00edvel Alem\u00e3o",
+            "sigla": "LENA",
+            "turno": "PL1",
+            "edificio": "CP1",
+            "sala": "2.20",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Seguran\u00e7a Sa\u00fade Trabalho",
+            "sigla": "SST",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "2.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "L\u00edngua Estrangeira N\u00edvel Franc\u00eas",
+            "sigla": "LENF",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "0.14",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Desporto Sa\u00fade",
+            "sigla": "DS",
+            "turno": "TP2",
+            "edificio": "CP2",
+            "sala": "0.15",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Ambiente Energia",
+            "sigla": "AE",
+            "turno": "T1",
+            "edificio": "CP3",
+            "sala": "2.05",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Diversidade Psicologia",
+            "sigla": "DP",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Fundamentos Pr\u00e1ticas Primeiros Socorros",
+            "sigla": "FPPS",
+            "turno": "PL1",
+            "edificio": "CP1",
+            "sala": "2.19",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 9,
+            "nome": "Edif\u00edcios Verdes",
+            "sigla": "EV",
+            "turno": "TP",
+            "edificio": "CP1",
+            "sala": "2.25",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 10,
+            "nome": "Tribunais Internacionais",
+            "sigla": "TI",
+            "turno": "T1",
+            "edificio": "CP3",
+            "sala": "2.04",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 10,
+            "nome": "Lideran\u00e7a Empreendedorismo",
+            "sigla": "LE",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.04",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Introdu\u00e7\u00e3o Programa\u00e7\u00e3o N\u00e3o Inform\u00e1ticos",
+            "sigla": "IPNI",
+            "turno": "TP1",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Matem\u00e1tica Coisas",
+            "sigla": "MC",
+            "turno": "PL1",
+            "edificio": "CP6",
+            "sala": "3.72",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "\u00d3tica Aplicada Fotografia Digital",
+            "sigla": "\u00d3AFD",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "0.22",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Educa\u00e7\u00e3o Desenvolvimento Interpessoal Contexto Universit\u00e1rio",
+            "sigla": "EDICU",
+            "turno": "TP1",
+            "edificio": "CP1",
+            "sala": "2.19",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Bio\u00e9tica",
+            "sigla": "B",
+            "turno": "T1",
+            "edificio": "CP2",
+            "sala": "2.03",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Computa\u00e7\u00e3o R",
+            "sigla": "CR",
+            "turno": "PL1",
+            "edificio": "CP6",
+            "sala": "3.71",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 11,
+            "nome": "Desporto Sa\u00fade",
+            "sigla": "DS",
+            "turno": "TP1",
+            "edificio": "CP2",
+            "sala": "0.15",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL8",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP1",
+            "edificio": "CP2",
+            "sala": "1.16",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP3",
+            "edificio": "CP1",
+            "sala": "2.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL2",
+            "edificio": "CP7",
+            "sala": "1.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL3",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP6",
+            "edificio": "CP1",
+            "sala": "0.18",
+            "duracao": 2
+        }
+    ],
+    "Qua": [
+        {
+            "hora_de_inicio": 14,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL6",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL1",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL12",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP4",
+            "edificio": "CP2",
+            "sala": "0.15",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP7",
+            "edificio": "CP1",
+            "sala": "1.17",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP5",
+            "edificio": "CP1",
+            "sala": "2.18",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL4",
+            "edificio": "CP7",
+            "sala": "1.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL5",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL5",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL4",
+            "edificio": "CP7",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL5",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL6",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL11",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP3",
+            "edificio": "CP1",
+            "sala": "1.21",
+            "duracao": 2
+        }
+    ],
+    "Qui": [
+        {
+            "hora_de_inicio": 14,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "T2",
+            "edificio": "CP1",
+            "sala": "0.04",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "T2",
+            "edificio": "CP1",
+            "sala": "0.08",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "T1",
+            "edificio": "CP1",
+            "sala": "0.04",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL4",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL9",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP4",
+            "edificio": "CP1",
+            "sala": "0.18",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 18,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL2",
+            "edificio": "CP1",
+            "sala": "1.24",
+            "duracao": 2
+        }
+    ],
+    "Sex": [
+        {
+            "hora_de_inicio": 14,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL3",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL3",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL7",
+            "edificio": "CP7",
+            "sala": "0.05",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP1",
+            "edificio": "CP3",
+            "sala": "2.03",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP5",
+            "edificio": "CP1",
+            "sala": "2.25",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 14,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL2",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL7",
+            "edificio": "CP1",
+            "sala": "1.18",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Programa\u00e7\u00e3o Orientada Objetos",
+            "sigla": "POO",
+            "turno": "PL1",
+            "edificio": "CP7",
+            "sala": "0.09",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL8",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "C\u00e1lculo Programas",
+            "sigla": "CP",
+            "turno": "TP8",
+            "edificio": "CP1",
+            "sala": "2.25",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP2",
+            "edificio": "CP1",
+            "sala": "1.16",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
+            "sigla": "LI3",
+            "turno": "PL6",
+            "edificio": "CP7",
+            "sala": "0.11",
+            "duracao": 2
+        }
+    ]
+}
