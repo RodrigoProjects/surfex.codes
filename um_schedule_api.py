@@ -9,7 +9,10 @@ class UM_Schedule_API():
 
     def __init__(self, chromedriver_path : str = None):
         self.options = webdriver.ChromeOptions(); 
+        self.options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
         self.options.add_argument('headless') # Sem abrir o browser.
+        self.options.add_argument("--disable-dev-shm-usage")
+        self.options.add_argument("--no-sandbox")        
         self.options.add_experimental_option('excludeSwitches', ['enable-logging']) # Sem notificações de progresso.        
         self.pp = pprint.PrettyPrinter() # Objeto PrettyPrinter
         self.chrome_path = chromedriver_path
@@ -34,7 +37,7 @@ class UM_Schedule_API():
             return json.load(open(f'./horarios/{json_path}', encoding='utf8'))
         
         try:
-            driver = webdriver.Chrome(options=self.options) if self.chrome_path == None else webdriver.Chrome(self.chrome_path,options=self.options)
+            driver = webdriver.Chrome(options=self.options, executable_path= os.environ.get("CHROMEDRIVER_PATH")) if os.environ.get("CHROMEDRIVER_PATH") else webdriver.Chrome(options=self.options)
 
             driver.get('https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisHorarios.aspx')
             search_bar = driver.find_element_by_class_name('rcbInput')
@@ -98,7 +101,7 @@ class UM_Schedule_API():
     def isCurso(self, CURSO : str):
         try:
             
-            driver = webdriver.Chrome(options=self.options) if self.chrome_path == None else webdriver.Chrome(self.chrome_path,options=self.options)
+            driver = webdriver.Chrome(options=self.options, executable_path= os.environ.get("CHROMEDRIVER_PATH")) if os.environ.get("CHROMEDRIVER_PATH") else webdriver.Chrome(options=self.options)
 
             driver.get('https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisHorarios.aspx')
             search_bar = driver.find_element_by_class_name('rcbInput')
