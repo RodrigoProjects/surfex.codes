@@ -292,15 +292,6 @@
         },
         {
             "hora_de_inicio": 16,
-            "nome": "Sistemas Operativos",
-            "sigla": "SO",
-            "turno": "PL2",
-            "edificio": "CP7",
-            "sala": "1.09",
-            "duracao": 2
-        },
-        {
-            "hora_de_inicio": 16,
             "nome": "Laborat\u00f3rios Inform\u00e1tica 3",
             "sigla": "LI3",
             "turno": "PL3",
@@ -310,11 +301,29 @@
         },
         {
             "hora_de_inicio": 16,
+            "nome": "Sistemas Operativos",
+            "sigla": "SO",
+            "turno": "PL2",
+            "edificio": "CP7",
+            "sala": "0.07",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
             "nome": "Eletromagnetismo EE",
             "sigla": "EE",
             "turno": "TP6",
             "edificio": "CP1",
             "sala": "0.18",
+            "duracao": 2
+        },
+        {
+            "hora_de_inicio": 16,
+            "nome": "Eletromagnetismo EE",
+            "sigla": "EE",
+            "turno": "TP7",
+            "edificio": "CP1",
+            "sala": "1.24",
             "duracao": 2
         }
     ],
@@ -629,5 +638,6 @@
             "sala": "0.11",
             "duracao": 2
         }
-    ]
+    ],
+    "updated_at": "10/02/2020"
 }

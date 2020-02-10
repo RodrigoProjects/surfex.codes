@@ -8,28 +8,15 @@ app.config['JSON_AS_ASCII'] = False # Garant utf-8
 def index():
     return '<h1>Hello World!!!</h1>'
 
-@app.route('/getmsg/', methods=['GET'])
-def respond():
-    # Retrieve the name from url parameter
-    name = request.args.get("name", None)
+@app.route('/cursos', methods=['GET'])
+def cursos():
+    try:
+        api = UM_Schedule_API()
+        return jsonify(api.getCursos())
 
-    # For debugging
-    print(f"got name {name}")
-
-    response = {}
-
-    # Check if user sent a name at all
-    if not name:
-        response["ERROR"] = "no name found, please send a name."
-    # Check if the user entered a number not a name
-    elif str(name).isdigit():
-        response["ERROR"] = "name can't be numeric."
-    # Now the user entered a valid name
-    else:
-        response["MESSAGE"] = f"Welcome {name} to our awesome platform!!"
-
-    # Return the response in json format
-    return json.dumps(response)
+    except Exception:
+        return jsonify({'error' : 'API está em manutenção!'}) 
+    
 
 
 @app.route('/schedule/', methods=['GET'])
@@ -51,7 +38,7 @@ def schedule():
 
     try:
         api = UM_Schedule_API()
-        return jsonify(api.get(CURSO = curso,ANO = ano))
+        return jsonify(api.get(CURSO = curso,ANO = ano, force_update=False))
 
     except Exception as e:
         return jsonify({'erro' : 'Ano ou curso não existente!', 'trace' : e.args})
@@ -61,4 +48,8 @@ def schedule():
     
 
 if __name__ == "__main__":
-    app.run(threaded=True,port=5000,debug=True)
+
+    app.run(threaded=True,port=5000,debug=False)
+
+    #while True:
+    

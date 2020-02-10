@@ -4,6 +4,8 @@ import re
 import pprint
 import os
 import json
+from datetime import date
+
 
 class UM_Schedule_API():
 
@@ -29,8 +31,14 @@ class UM_Schedule_API():
 
     def get(self, CURSO : str = 'Mestrado Integrado em Engenharia Informática', ANO : int = 3, force_update : bool = False):
         
+        cursos = json.load(open('./cursos.json', encoding='utf8'))
+
         sigla = ''.join(re.findall('[A-Z]', CURSO))
-        
+
+        if CURSO in cursos:
+            CURSO = cursos[CURSO]
+            
+
         json_path = f'{sigla}_{ANO}.json'
 
         if os.path.exists(f'./horarios/{json_path}') and not force_update:
@@ -83,7 +91,7 @@ class UM_Schedule_API():
 
         
         except NoSuchElementException:
-            return {'error' : 'Algo foi alterado nos id\'s, classes, etc... do site dos horários.'}
+            return {'error' : 'Algo foi alterado nos id\'s, classes, etc... do site dos horários ou ano não existe.'}
 
         except WebDriverException:
             return {'error' : 'Caminho para o webdriver errado ou má instalação do mesmo.'}
@@ -92,7 +100,11 @@ class UM_Schedule_API():
             print('Algo correu mal ao procurar o curso e o ano! Por favor verifique se o curso e o ano existem.')
             return {'error' : e}
 
+        now = date.today()
+
+        horario_dict["updated_at"] = now.strftime("%d/%m/%Y")
         json.dump(horario_dict, open(f'./horarios/{json_path}', 'w', encoding='utf8'), indent=4)
+        
         return horario_dict
     
     def pprint(self, dict : {}):
@@ -140,5 +152,37 @@ class UM_Schedule_API():
 
         return ret
 
-    def getCursos(self):
-        pass
+    def getCursos(self, save : bool = False):
+
+        ret = {}
+
+        if os.path.exists('./cursos.json') and not save:
+            return json.load(open('./cursos.json', encoding='utf8'))
+        
+        try:
+            
+            driver = webdriver.Chrome(options=self.options, executable_path= os.environ.get("CHROMEDRIVER_PATH")) if os.environ.get("CHROMEDRIVER_PATH") else webdriver.Chrome(options=self.options)
+
+            driver.get('https://alunos.uminho.pt/PT/estudantes/Paginas/InfoUteisHorarios.aspx')
+            search_bar = driver.find_element_by_class_name('rcbInput')
+            search_bar.click()
+
+            li_cursos = driver.find_elements_by_class_name('rcbItem')
+
+            for curso in li_cursos:
+                ret["".join(list(map(lambda x: x[0], filter(lambda x: str.isupper(x[0]),curso.text.replace('\n', '')))))] = curso.text.replace('\n', '')
+
+        except Exception as e: 
+            raise e
+        finally:
+            driver.close()
+        
+        
+        if save:
+            now = date.today()
+
+            ret["updated_at"] = now.strftime("%d/%m/%Y")
+            json.dump(ret, open('./cursos.json', 'w', encoding='utf8'), indent=4, ensure_ascii=False)
+
+        return ret
+        
